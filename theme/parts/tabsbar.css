@@ -69,7 +69,7 @@ tab > stack {
 
 /* Space between tabs */
 .tabbrowser-tab:not([pinned=true]) {
-	margin: 0 4px !important;
+	margin: 0 0px !important;
 }
 
 /* Tab labels */
@@ -216,7 +216,7 @@ tab[selected]:-moz-window-inactive {
 	background-image: none !important;
 	border: 0 !important;
 	border-image: none !important;
-	border-bottom: 4px solid var(--gnome-tabbar-tab-active-border-bottom-color) !important;
+	border-bottom: 2px solid rgb(32, 138, 224) !important;
 }
 .tab-background[selected=true]:-moz-window-inactive {
 	background-color: var(--gnome-inactive-tabbar-tab-active-background) !important;
@@ -244,10 +244,10 @@ tab[selected]:-moz-window-inactive {
 }
 
 /* Full width tabs */
-.tabbrowser-tab:not([style^="max-width"]):not([pinned]),
+/*.tabbrowser-tab:not([style^="max-width"]):not([pinned]),
 .tabbrowser-tab[style^="max-width: 100px !important;"]:not([pinned]) {
 	max-width: 100% !important;
-}
+}*/
 
 .tabbrowser-tab:not([style^="max-width"]):not([pinned]):not([fadein]),
 .tabbrowser-tab[style^="max-width: 100px !important;"]:not([pinned]):not([fadein]) {

@@ -124,7 +124,7 @@
 		--gnome-private-inactive-headerbar-border-color: rgb(77, 41, 102);
 		--gnome-private-inactive-headerbar-box-shadow: var(--gnome-private-headerbar-box-shadow);
 
-		/* Buttons */	
+		/* Buttons */	/*
 		--gnome-private-button-background: linear-gradient(to top, rgb(94, 52, 127) 2px, rgb(97, 53, 131));
 		--gnome-private-button-border-color: rgb(70, 38, 95);
 		--gnome-private-button-border-accent-color: rgb(49, 27, 66);
@@ -139,7 +139,7 @@
 		--gnome-private-button-disabled-box-shadow:  0 1px rgba(255, 255, 255, 0) inset;
 		--gnome-private-inactive-button-background: #613583;
 		--gnome-private-inactive-button-border-color: rgb(74, 41, 102);
-		--gnome-private-inactive-button-box-shadow:  0 1px rgba(255, 255, 255, 0) inset;
+		--gnome-private-inactive-button-box-shadow:  0 1px rgba(255, 255, 255, 0) inset;*/
 
 		/* Entries */
 		--gnome-private-entry-border-color: #202020;

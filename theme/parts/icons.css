@@ -190,7 +190,8 @@ menuitem[type="radio"][disabled="true"] .menu-iconic-icon {
 
 /* Window buttons */
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-close .toolbarbutton-icon {
-	list-style-image: url("../icons/window-close-symbolic.svg") !important;
+	list-style-image: url("/usr/share/themes/Yaru-Blue/unity/close.svg") !important;
+	
 }
 :root[tabsintitlebar] #titlebar .titlebar-buttonbox .titlebar-max .toolbarbutton-icon {
 	list-style-image: url("../icons/window-maximize-symbolic.svg") !important;
